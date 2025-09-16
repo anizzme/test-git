@@ -1,6 +1,6 @@
-1.working directory(here- test-prj) ---> 2.stagging area(where all the code goes) ---> 3.local repo(from stagging area to local repo. Means we are ready everythng inside prj to remote repo) --> 4.remote repo 
+1.working directory(here- test-prj) ---> 2.stagging area(where all the code goes) ---> 3.local repo(from stagging area to local repo. Means we are ready to move everythng inside prj to remote repo) --> 4.remote repo 
 test-prj --- use the command git add and the file name to add into stagging area ---to move from stagging area to local repo we use git commit --- git push to add inot remote repo 
-test-prj ---? git add ---> git commit --->git push
+test-prj ---> git add(to staging area) ---> git commit(to local repo) --->git push(to remote repo)
 In staging area- file is tracked and in working directoyr it is not tracked
 
 
@@ -8,4 +8,16 @@ In a git folder a file can have 2 states- tracked and untracked
 git status can be used in working dir and stagging area
 tracked- git knows we added some files to git repo
 if we dont add something to stagging area- untracked
-git init--> git add/ git restore-- git status to check the status git diff to see the changes made
+git init--> git add/ git restore-- git status to check the status --->git diff to see the changes made
+
+to local repo--- git commit -m "message", use git log to see the number of commits we did
+git log --oneline---. gives the commit ids and commit message in simplest way
+
+To uncommit--- to go back to staging area-- git reset --soft HEAD^
+to go back to working directory--> git reset HEAD^
+git reset --hard HEAD^- delets all the changes we made
+
+
+git checkout xxxxxxx (xxxxxxx- this is the commit id)-- allows us to move to that version
+git checkout master allows to go back to all the commits made
+with the commit msg we can also add some description to that commit msg---> git commit -m"msg" -m "description msg" -m "msg des"..
