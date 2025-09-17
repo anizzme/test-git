@@ -11,7 +11,7 @@ if we dont add something to stagging area- untracked
 git init--> git add/ git restore-- git status to check the status --->git diff to see the changes made
 
 to local repo--- git commit -m "message", use git log to see the number of commits we did
-git log --oneline---. gives the commit ids and commit message in simplest way
+git log --oneline--> gives the commit ids and commit message in simplest way
 
 To uncommit--- to go back to staging area-- git reset --soft HEAD^
 to go back to working directory--> git reset HEAD^
@@ -21,3 +21,16 @@ git reset --hard HEAD^- delets all the changes we made
 git checkout xxxxxxx (xxxxxxx- this is the commit id)-- allows us to move to that version
 git checkout master allows to go back to all the commits made
 with the commit msg we can also add some description to that commit msg---> git commit -m"msg" -m "description msg" -m "msg des"..
+
+git show commit_id/git show/git show HEAD - shows commit history
+alias-- instead of commit- use any other simple expression-- for example instead of git commit -"", write git cm -"m". And so on the same for other commands
+
+GITHUB
+git remote - v ---> to check if there is a remote connection
+create repos-- and copy the git remote add origin https:.... ---> with this the connection to remote repo is established
+git push origin master ---> to push inot the remote repo
+git pull origin master ----> to pull into the local repo
+
+
+
+

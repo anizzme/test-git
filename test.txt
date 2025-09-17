@@ -4,3 +4,7 @@ I am zz years old.
 I am from India
 
 I have done my masters in software, web and cloud at GNU
+
+I love Switzerland
+Currently living in India
+
