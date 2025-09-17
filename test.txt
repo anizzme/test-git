@@ -2,3 +2,5 @@ Hello, this is Anizzme !
 I am zz years old.
 
 I am from India
+
+I have done my masters in software, web and cloud at GNU
